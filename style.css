@@ -157,7 +157,7 @@ html {
   width: 130px;
 }
 .sobremi .fila .col ul li span {
-  background-color: #41b883;
+  /*  background-color: #41b883; */
   padding: 3px;
   font-weight: bold;
   border-radius: 5px;
@@ -672,6 +672,9 @@ footer .redes a {
   margin: 40px 5px;
   font-size: 20px;
   transition: 0.3s;
+}
+.redes a:hover {
+  background-color: #41b883;
 }
 footer .arriba {
   display: block;
